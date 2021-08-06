@@ -11,7 +11,7 @@ body
 {
     background-size: cover ;
     background-position: center ;
-    font-family: Lato;
+    font-family: Poppins;
 }
 
 /* Navbar */
@@ -163,11 +163,12 @@ body
 }
 .col-3{
   flex-basis: 25%;
-  min-width: 250px;
+  min-width: 400px;
   margin-bottom: 30px;
 }
 .col-3  img{
   width: 100%;
+  height: 300px;
 }
 .small-container{
   max-width: 1080px;
@@ -195,12 +196,16 @@ body
   bottom: 0;
   left: 50%;
   transform: translateX(-50%) ;
+  
 }
 /* Products */
 .product-title{
   color: #555;
   font-weight: normal;
+  font-family: Poppins;
+
 }
+
 .col-4{
   flex-basis: 25%;
   padding: 10px;
@@ -211,9 +216,15 @@ body
   margin-bottom: 50px;
   transition: 0.5s;
   border-radius: 1em;
-  border-left: 2px solid rgb(131, 131, 131);
-  border-bottom: 2px solid rgb(131, 131, 131);
+  border-left: 2px solid rgb(218, 214, 214);
+  border-bottom: 2px solid rgb(218, 214, 214);
 
+}
+.col-4 a{
+  text-decoration: none;
+}
+.col-4 a h4:hover{
+  color: rgb(160, 144, 144);
 }
 .col-4 img{
   width: 100%;
@@ -227,7 +238,46 @@ body
   transform: translateY(-5px);
 }
 
+/* Testimonial */
+.col-tes{
+  flex-basis: 33%;
+  padding: 10px;
+  max-width: 1080px;
+  min-width: 300px;
+  margin-bottom: 50px;
+  transition: 0.5s;
+  border-radius: 1em;
+  border-right: 2px solid rgb(218, 214, 214);
+  border-bottom-left-radius: 2px solid rgb(218, 214, 214);
+
+
+}
+.col-tes a{
+  text-decoration: none;
+}
+.col-tes a h4:hover{
+  color: rgb(160, 144, 144);
+}
+.col-tes img{
+  width: 100%;
+  min-width: 250px;
+  height: 300px;
+  transform: unset !important;
+  border-radius: 50%;
+}
+.col-tes p{
+  font-size: 14px;
+  font-family: Poppins;
+}
+.col-tes:hover{
+  transform: translateY(-5px);
+}
+
 .rating .fa{
+  color: #ff523b;
+
+}
+.rating .fas{
   color: #ff523b;
 
 }
@@ -249,6 +299,35 @@ img:hover, img:focus{
 	transform: scale(1.1);
 }
 /* Image */
+
+/* Maps  */
+.maps{
+  vertical-align: middle;
+}
+.addr li{
+  list-style: none;
+
+}
+.addr li i{
+  width: 50px;
+  height: auto;
+  color: #c03765;
+}
+.addr p{
+  font-family: Poppins;
+  font-size: 18px;
+  display: inline-block;
+}
+.addr li a{
+  text-decoration: none;
+  font-family: Poppins;
+  font-size: 18px;
+}
+
+.maps iframe{
+  padding-left: 15px;
+  justify-content: center;
+}
 
 /* FOOTER  */
 .footer{
