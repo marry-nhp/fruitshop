@@ -303,6 +303,7 @@ img:hover, img:focus{
 /* Maps  */
 .maps{
   vertical-align: middle;
+  padding-bottom: 20px;
 }
 .addr li{
   list-style: none;
@@ -312,11 +313,6 @@ img:hover, img:focus{
   width: 50px;
   height: auto;
   color: #c03765;
-}
-.addr p{
-  font-family: Poppins;
-  font-size: 18px;
-  display: inline-block;
 }
 .addr li a{
   text-decoration: none;
