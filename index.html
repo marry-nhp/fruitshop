@@ -8,6 +8,7 @@
     <title>Fruit Shop</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="libs/font-awsome/css/all.min.css">
+    <link rel="stylesheet" href="libs/font-awsome/js/all.min.js">
     <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css"
         href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Poppins:300,400,500,600,70" />
@@ -56,7 +57,7 @@
     </div>
     <!-- Image slider start -->
     <div id="slider">
-        <figure>
+        <figure class="img-zoom">
             <img src="images/1.jpg" />
             <img src="images/2.jpg" />
             <img src="images/3.jpg" />
@@ -66,218 +67,163 @@
 
         </figure>
     </div>
+    <!-- Categories -->
+    <div class="categories">
+        <h2 class="feature-title">Product Categories</h2>
+        <div class="small-containerc">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/product-1.jpg" alt="Bell Pepper">
+                </div>
+                <div class="col-3">
+                    <img src="images/product-2.jpg" alt="Strawberry">
+                </div>
+                <div class="col-3">
+                    <img src="images/product-3.jpg" alt="Green beans">
+                </div>
+                <div class="col-3">
+                    <img src="images/product-4.jpg" alt="Purple Cabbage">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Categories -->
 
     <!-- Products -->
-    <section class="ftco-section">
-        <div class="container">
-            <div class="row justify-content-center mb-3 pb-3">
-                <div class="col-md-12 heading-section text-center ftco-animate">
-                    <span class="subheading">Featured Products</span>
-                    <h2 class="mb-4">Our Products</h2>
-                    <p class="our-product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua.</p>
+    <div class="small-container">
+        <h2 class="feature-title">Feature Products</h2>
+        <div class="row">
+            <!-- product item 1 -->
+            <div class="col-4">
+                <img src="images/product-1.jpg" alt="Bell Pepper">
+                <h4 class="product-title">Bell Pepper</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
                 </div>
+                <p>$120.00</p>
             </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-lg-3 ftco-animate">
-                    <div class="product">
-                        <a href="#" class="img-prod"><img class="img-fluid" src="images/product-1.jpg"
-                                alt="Bell Pepper">
-                            <span class="status">-30%</span>
-                            <div class="overlay"></div>
-                        </a>
-                        <div class="text py-3 pb-4 px-3 text-center">
-                            <h3><a href="#">Bell Pepper</a></h3>
-                            <div class="d-flex">
-                                <div class="pricing">
-                                    <p class="price"><span class="mr-2 price-dc"> $120.00</span><span
-                                            class="price-sale">&nbsp; $80.00</span></p>
-                                </div>
-                            </div>
-                            <div class="bottom-area d-flex px-3">
-                                <div class="m-auto d-flex">
-                                    <a href="#"
-                                        class="add-to-cart d-flex justify-content-center align-items-center text-center">
+            <!-- product item 1 -->
 
-                                    </a>
-                                    <a href="#" class="buy-now d-flex justify-content-center align-items-center mx-1">
-                                        <span><i class="ion-ios-cart"></i></span>
-                                    </a>
-                                    <a href="#" class="heart d-flex justify-content-center align-items-center ">
-                                        <span><i class="ion-ios-heart"></i></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <!-- product item  -->
+            <div class="col-4">
+                <img src="images/product-1.jpg" alt="Bell Pepper">
+                <h4>Bell Pepper</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
                 </div>
-                <div class="col-md-6 col-lg-3 ftco-animate">
-                    <div class="product">
-                        <a href="#" class="img-prod"><img class="img-fluid" src="images/product-2.jpg" alt="Strawberry">
-                            <div class="overlay"></div>
-                        </a>
-                        <div class="text py-3 pb-4 px-3 text-center">
-                            <h3><a href="#">Strawberry</a></h3>
-                            <div class="d-flex">
-                                <div class="pricing">
-                                    <p class="price"><span>$120.00</span></p>
-                                </div>
-                            </div>
-                            <div class="bottom-area d-flex px-3">
-                                <div class="m-auto d-flex">
-                                    <a href="#"
-                                        class="add-to-cart d-flex justify-content-center align-items-center text-center">
-
-                                    </a>
-                                    <a href="#" class="buy-now d-flex justify-content-center align-items-center mx-1">
-                                        <span><i class="ion-ios-cart"></i></span>
-                                    </a>
-                                    <a href="#" class="heart d-flex justify-content-center align-items-center ">
-                                        <span><i class="ion-ios-heart"></i></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 ftco-animate">
-                    <div class="product">
-                        <a href="#" class="img-prod"><img class="img-fluid" src="images/product-3.jpg"
-                                alt="Green Beans">
-                            <div class="overlay"></div>
-                        </a>
-                        <div class="text py-3 pb-4 px-3 text-center">
-                            <h3><a href="#">Green Beans</a></h3>
-                            <div class="d-flex">
-                                <div class="pricing">
-                                    <p class="price"><span>$120.00</span></p>
-                                </div>
-                            </div>
-                            <div class="bottom-area d-flex px-3">
-                                <div class="m-auto d-flex">
-                                    <a href="#"
-                                        class="add-to-cart d-flex justify-content-center align-items-center text-center">
-
-                                    </a>
-                                    <a href="#" class="buy-now d-flex justify-content-center align-items-center mx-1">
-                                        <span><i class="ion-ios-cart"></i></span>
-                                    </a>
-                                    <a href="#" class="heart d-flex justify-content-center align-items-center ">
-                                        <span><i class="ion-ios-heart"></i></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 ftco-animate">
-                    <div class="product">
-                        <a href="#" class="img-prod"><img class="img-fluid" src="images/product-4.jpg"
-                                alt="Purple Cabbage">
-                            <div class="overlay"></div>
-                        </a>
-                        <div class="text py-3 pb-4 px-3 text-center">
-                            <h3><a href="#">Purple Cabbage</a></h3>
-                            <div class="d-flex">
-                                <div class="pricing">
-                                    <p class="price"><span>$120.00</span></p>
-                                </div>
-                            </div>
-                            <div class="bottom-area d-flex px-3">
-                                <div class="m-auto d-flex">
-                                    <a href="#"
-                                        class="add-to-cart d-flex justify-content-center align-items-center text-center">
-
-                                    </a>
-                                    <a href="#" class="buy-now d-flex justify-content-center align-items-center mx-1">
-                                        <span><i class="ion-ios-cart"></i></span>
-                                    </a>
-                                    <a href="#" class="heart d-flex justify-content-center align-items-center ">
-                                        <span><i class="ion-ios-heart"></i></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-md-6 col-lg-3 ftco-animate">
-                    <div class="product">
-                        <a href="#" class="img-prod"><img class="img-fluid" src="images/product-5.jpg" alt="Tomatoe">
-                            <span class="status">-30%</span>
-                            <div class="overlay"></div>
-                        </a>
-                        <div class="text py-3 pb-4 px-3 text-center">
-                            <h3><a href="#">Tomatoe</a></h3>
-                            <div class="d-flex">
-                                <div class="pricing">
-                                    <p class="price"><span class="mr-2 price-dc">$120.00</span><span class="price-sale">
-                                            &nbsp;$80.00</span></p>
-                                </div>
-                            </div>
-                            <div class="bottom-area d-flex px-3">
-                                <div class="m-auto d-flex">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 ftco-animate">
-                    <div class="product">
-                        <a href="#" class="img-prod"><img class="img-fluid" src="images/product-6.jpg" alt="Brocolli">
-                            <div class="overlay"></div>
-                        </a>
-                        <div class="text py-3 pb-4 px-3 text-center">
-                            <h3><a href="#">Brocolli</a></h3>
-                            <div class="d-flex">
-                                <div class="pricing">
-                                    <p class="price"><span>$120.00</span></p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 ftco-animate">
-                    <div class="product">
-                        <a href="#" class="img-prod"><img class="img-fluid" src="images/product-7.jpg" alt="Carrots">
-                            <div class="overlay"></div>
-                        </a>
-                        <div class="text py-3 pb-4 px-3 text-center">
-                            <h3><a href="#">Carrots</a></h3>
-                            <div class="d-flex">
-                                <div class="pricing">
-                                    <p class="price"><span>$120.00</span></p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 ftco-animate">
-                    <div class="product">
-                        <a href="#" class="img-prod"><img class="img-fluid" src="images/product-8.jpg"
-                                alt="Fruit Juice">
-                            <div class="overlay"></div>
-                        </a>
-                        <div class="text py-3 pb-4 px-3 text-center">
-                            <h3><a href="#">Fruit Juice</a></h3>
-                            <div class="d-flex">
-                                <div class="pricing">
-                                    <p class="price"><span>$120.00</span></p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
+                <p>$120.00</p>
             </div>
+            <!-- product item 2 -->
+
+            <!-- product item 3 -->
+            <div class="col-4">
+                <img src="images/product-1.jpg" alt="Bell Pepper">
+                <h4>Bell Pepper</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$120.00</p>
+            </div>
+            <!-- product item 3 -->
+
+            <!-- product item 4 -->
+            <div class="col-4">
+                <img src="images/product-1.jpg" alt="Bell Pepper">
+                <h4>Bell Pepper</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$120.00</p>
+            </div>
+            <!-- product item 4 -->
+
+            <!-- product item 5 -->
+            <div class="col-4">
+                <img src="images/product-1.jpg" alt="Bell Pepper">
+                <h4>Bell Pepper</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$120.00</p>
+            </div>
+            <!-- product item 5 -->
+
+            <!-- product item 6 -->
+            <div class="col-4">
+                <img src="images/product-1.jpg" alt="Bell Pepper">
+                <h4>Bell Pepper</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$120.00</p>
+            </div>
+            <!-- product item 6 -->
+
+            <!-- product item 7 -->
+            <div class="col-4">
+                <img src="images/product-1.jpg" alt="Bell Pepper">
+                <h4>Bell Pepper</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$120.00</p>
+            </div>
+            <!-- product item 7 -->
+
+            <!-- product item 8 -->
+            <div class="col-4">
+                <img src="images/product-1.jpg" alt="Bell Pepper">
+                <h4>Bell Pepper</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$120.00</p>
+            </div>
+            <!-- product item 8 -->
         </div>
-    </section>
+    </div>
+
+
 
 
     </div>
@@ -322,8 +268,8 @@
         <p class="copyright">
             Copyright &copy;
             <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with
-            <i class="fas fa-heart" aria-hidden="true"></i> by <a class="phucnguyen" href="https://marry-nhp.github.io/CV/"
-                target="_blank">Phuc Nguuyen Hong</a>
+            <i class="fas fa-heart" aria-hidden="true"></i> by <a class="phucnguyen"
+                href="https://marry-nhp.github.io/CV/" target="_blank">Phuc Nguuyen Hong</a>
         </p>
     </div>
 </footer>
